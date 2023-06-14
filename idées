@@ -1,0 +1,6 @@
+Une classe quiz. Titre + Tableau de questions.
+Un quiz est une liste de questions, à chaque question est associé une réponse.
+Possible de faire une map <string, string> pour associer la question à une réponse.
+Pour l'affic hage itérer dans une boucle for.
+
+Quiz peut avoir plusieurs types de questions.
