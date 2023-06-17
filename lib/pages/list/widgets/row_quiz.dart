@@ -13,9 +13,10 @@ class RowQuiz extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       child: InkWell(
         onTap: () {
+          quiz.remiseZero();
           Navigator.pushNamed(
             context,
             Pages.quiz,

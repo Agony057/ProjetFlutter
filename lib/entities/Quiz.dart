@@ -3,8 +3,9 @@ import 'package:quizzflutter/entities/Question.dart';
 class Quiz {
   final String titre;
   final List<Question> questions;
-  final int numQuestion = 0;
-  final int score = 0;
+  int numQuestion = 0;
+  double score = 0;
+  int essai = 0;
 
   Quiz({required this.titre, required this.questions});
 
@@ -14,5 +15,15 @@ class Quiz {
 
   List<Question> getQuestions() {
     return questions;
+  }
+
+  int getSizeQuestions() {
+    return questions.length;
+  }
+
+  remiseZero() {
+    numQuestion = 0;
+    score = 0;
+    essai = 0;
   }
 }

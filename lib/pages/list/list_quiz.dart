@@ -41,12 +41,6 @@ class _ListQuizState extends State<ListQuiz> {
                 RowQuiz(
                   quiz: item,
                 ),
-              // for (final Pokemon item in pokedex)
-              //   TheAmazingRow(
-              //     icon: item.icon,
-              //     label: item.name.toUpperCase(),
-              //     onDelete: () => onPokemonDelete(item.name),
-              //   ),
             ],
           ),
         ),

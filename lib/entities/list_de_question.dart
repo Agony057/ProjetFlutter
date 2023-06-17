@@ -1,27 +1,48 @@
 import 'package:quizzflutter/entities/Question.dart';
 
-final List<Question> listQuestionStarWars = [
+final List<Question> listQuestionHarryPotter = [
   Question(
-    [],
-    question: "Comment s'appelle le robot que Anakin a construit ?",
-    reponse: "c3po",
+    ["RONALD", "NEUVILLE", "DRAGO", "SIRIUS"],
+    question: "Comment s'appelle le meilleur ami d'Harry Potter ?",
+    reponse: "RONALD",
   ),
   Question(
-    ["maitre yoda", "mace windu", "compte dookku"],
-    question: "Comment s'appelle le maitre jedi qui parle à l'envers ?",
-    reponse: "maitre yoda",
+    ["POUFSOUFFLE", "GRYFFONDOR", "SERDAIGLE", "SERPENTARD"],
+    question: "Dans quelle maison ce trouve Harry Potter ?",
+    reponse: "GRYFFONDOR",
+  ),
+  Question(
+    [],
+    question: "Dans quelle école de sorcellerie a étudié Harry Potter ?",
+    reponse: "POUDLARD",
+  ),
+  Question(
+    [],
+    question:
+        "Comment s'appelle le celui dont on ne doit pas prononcer le nom ?",
+    reponse: "VOLDEMORT",
   ),
 ];
 
-final List<Question> listQuestionSeigneurDesAnneaux = [
+final List<Question> listQuestionDisney = [
   Question(
     [],
-    question: "Comment s'appelle le magicien gris",
-    reponse: "gandalf",
+    question: "Quel est le nom de la souris créé par Walt Disney ?",
+    reponse: "MICKEY",
   ),
   Question(
-    ["smaug", "smaguld", "smeagol"],
-    question: "Quel est le vrai nom de gollum",
-    reponse: "smehagol",
+    [],
+    question: "Comment s'appelle le dragon qui aide Mulan ?",
+    reponse: "MUSHU",
+  ),
+  Question(
+    ["DEUX", "CINQ", "SEPT", "NEUF"],
+    question: "Combien de nains vivent avec Blanche-Neige ?",
+    reponse: "SEPT",
+  ),
+  Question(
+    ["BELLE", "AURORE", "RAIPONCE", "JASMINE"],
+    question: "Comment s'appelle la princesse dans Aladdin ?",
+    reponse: "JASMINE",
   ),
 ];

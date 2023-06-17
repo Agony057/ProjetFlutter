@@ -3,11 +3,11 @@ import 'package:quizzflutter/entities/Quiz.dart';
 
 final List<Quiz> listQuiz = [
   Quiz(
-    titre: "QUIZ STAR WARS",
-    questions: listQuestionStarWars,
+    titre: "QUIZ HARRY POTTER",
+    questions: listQuestionHarryPotter,
   ),
   Quiz(
-    titre: "QUIZ SEIGNEUR DES ANNEAUX",
-    questions: listQuestionSeigneurDesAnneaux,
+    titre: "QUIZ DISNEY",
+    questions: listQuestionDisney,
   ),
 ];

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quizzflutter/pages/list/list_quiz.dart';
 import 'package:quizzflutter/pages/quiz/page_quiz.dart';
+import 'package:quizzflutter/pages/score/page_score.dart';
 import 'package:quizzflutter/routes/pages.dart';
 
 void main() => runApp(
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
       routes: {
         Pages.list: (context) => const ListQuiz(),
         Pages.quiz: (context) => const PageQuiz(),
+        Pages.score: (context) => const PageScore(),
       },
       // home: SnackBarPage(),
     );
